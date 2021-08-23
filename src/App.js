@@ -5,14 +5,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="App-body">
-          <iframe
-            width="854"
-            height="480"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ?&autoplay=1"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullScreen></iframe>
+          <iframe 
+            title="Rick rolled"
+            id="ytplayer" 
+            type="text/html" 
+            width="720" 
+            height="405"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0"
+            frameBorder="0" 
+            allowFullScreen>
+          </iframe>
           <h3 className="No">No!</h3>
         </div>
       </header>
